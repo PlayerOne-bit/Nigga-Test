@@ -4,6 +4,8 @@
 <link rel="icon" type="image/png" href="Untitled.png">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website ni Mayghel</title>
     <link rel="stylesheet" href="design.css">
 </head>
@@ -17,12 +19,11 @@
 
     <main>
         <h4>Personal Information to be Firefly's Husband</h4>
-    <img src="__firefly_elysia_elysia_and_elysia_honkai_and_1_more_drawn_by_saint_laurent_paris__sample-f6e755417dda1a822947423b428a3fda.jpg" height="500px">
+    <img src="Images/__firefly_elysia_elysia_and_elysia_honkai_and_1_more_drawn_by_saint_laurent_paris__sample-f6e755417dda1a822947423b428a3fda.jpg" height="500px">
         <p id="p1">To become a husband, are you worthy and ready to carry the responsibility and love her for eternity? Carry a child with her, give her lots of cake rolls.</p>
         <p id="p2">LOVE FIREFLY WITH ALL YOUR HEART</p>
         <p class="odd">Once you submit there's no turning back, no cheating!</p>
-        
-    <form enctype="multipart/form-data">
+    <form action="main.html" method="post" enctype="multipart/form-data">
         <label for="username">Username:</label>
         <input type="text" id="username" minlength="6" maxlength="15" required placeholder="Input your username"><br>
 
@@ -37,6 +38,9 @@
 
         <label for="Bday">Birthday:</label>
         <input type="date" id="Bday"><br>
+
+        <label for="Age">Age:</label>
+        <input type="number" id="Age" min="0" max="120" value="0"><br>
 
         <label for="Gender">Gender:</label>
 
@@ -70,9 +74,11 @@
         <input type="reset"> 
     </form>
 
-    <img src="460127279_1929855367482995_3527527013081016418_n.jpg" height="500px">
+    <img src="Images/460127279_1929855367482995_3527527013081016418_n.jpg" height="500px">
     <br>
-    
+    <a href="main.html" title="Go to Joven">
+        <button>Page 1</button>
+    </a>
     </main>
     <footer style="background-color: #7fffd4;">
         <hr>
