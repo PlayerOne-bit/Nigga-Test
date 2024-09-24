@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+h4{
+    color:cyan
+}
+#p1{
+    color:cyan
+}
+#p2{
+    color: blue;
+}
+.odd{
+    color:yellow;
+}
+label {
+    color: red
+}
+button{
+    font-size:25px; 
+    background-color: rgb(34, 34, 34); color:yellow; 
+    border-radius: 50px;
+}
